@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    {% for ads in all_ads%}
+    <ur>
+        <li>{{ads.id}}</li>
+        <li>{{ads.title}}</li>
+        <li>{{ads.description}}</li>
+        <li>{{ads.price}}</li>
+    </ur>
+    <!-- <h1>{{ads}}</h1> -->
+    {%endfor%}
+</body>
+</html>
